@@ -58,6 +58,7 @@ Astra DB's web-based UI is a powerful tool for monitoring and managing vector da
 - **Accessing the UI**:
   - Log in to the Astra DB dashboard (https://astra.datastax.com).
   - Navigate to your database and select the `demo_project` collection.
+  ![UI](UI.png)
 
 - **Viewing Vectors**:
   - The UI displays stored documents, including their vector embeddings (high-dimensional arrays).
@@ -97,8 +98,10 @@ To replicate this project:
 
 4. **Monitor in the UI**:
    - Log in to Astra DB's dashboard to view vectors, documents, and performance metrics.
-
-
+   _UI_
+   ![UI_image](UI.png)
+   _Metrics_page_
+   ![Metric_Page](Metrics.png)
 ## Conclusion
 This project showcased Astra DB's power as a vector database for AI-driven applications. Its serverless architecture, seamless LangChain integration, and robust UI for monitoring vectors and metrics make it a compelling choice over ChromaDB and FAISS for scalable, managed solutions. By storing and querying philosophical quotes, I learned how to leverage vector embeddings for semantic search and how Astra DB's cloud-native features simplify development and monitoring.
 
